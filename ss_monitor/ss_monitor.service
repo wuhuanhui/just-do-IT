@@ -1,0 +1,7 @@
+[Unit]
+Description=ss_monitor
+[Service]
+Type=simple
+ExecStart=/usr/bin/python /home/whh/ssport_monitor/net_monitor.py
+[Install]
+WantedBy=multi-user.target
